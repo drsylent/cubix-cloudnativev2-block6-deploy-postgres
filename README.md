@@ -6,5 +6,5 @@ Fork this repository for the practice session.
 Replace password setting.
 
 ```shell
-helm upgrade postgresql bitnami/postgresql --version 14.2.3 -n cubix --set auth.password=<ENTER-PASSWORD> -f values.yaml --install
+helm upgrade postgresql bitnami/postgresql --version 14.3.3 -n cubix -f values.yaml --install --set auth.password=<ENTER-PASSWORD>
 ```

@@ -1,6 +1,7 @@
 image:
+  registry: docker.io
   repository: postgres
-  tag: 16
+  tag: "18"
 
 auth:
   username: user
