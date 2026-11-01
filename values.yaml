@@ -1,5 +1,7 @@
 image:
-    repository: bitnamilegacy/postgresql
+  registry: docker.io
+  repository: postgres
+  tag: "18"
 
 auth:
   username: user
